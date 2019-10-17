@@ -1,6 +1,6 @@
-### Model performance <a name="performance"/>
+## Model performance <a name="performance"/>
 
-#### Accuracy benchmarking <a name="accuracy"/>
+### Accuracy benchmarking <a name="accuracy"/>
 
 The unique combination of the versatile, heavy-tailed MGL distribution with asymmetric multivariate GARCH processes and the least-squares filter empowers the model exhibit the following key-features
 
@@ -26,7 +26,7 @@ Subsequently, we achieve more accurate forecasts, and our solution has a clear e
 
 **Laplace-GARCH** enotes our model. Note that values closer to 1%, are better; that is, a perfect model with an infinite amount of sample data would exhibit **1% or 0.01** violations.
 
-#### Execution times and scalability <a name="scalability"/>
+### Execution times and scalability <a name="scalability"/>
 
 In addition to superior performance, a strategic and highly efficient implementation results in a low execution time, which allows us to apply our approach to large-scale portfolios:
 
