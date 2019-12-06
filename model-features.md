@@ -6,7 +6,7 @@ The following section highlights some of the particular characteristics of our m
 
 As mentioned in the introductory section, unlike the widely used Gaussian-based models, the MGL distribution has heavy tails and can accommodate extreme market events. This situation can be seen in the following figure, depicting the left tail of both distributions fit the daily returns during the most severe months of the crisis.
 
-![](https://raw.githubusercontent.com/aaaccell/risk-doc/master/figures/APC_crisis_density.png)
+![](https://raw.githubusercontent.com/aaaccell/risk-doc/master/figures/APC_crisis_density.png =80%x*)
 
 From the graph, one can easily see that the MGL distribution provide a much better fit to the observed daily left-tail returns than the Gaussian distribution: The MGL assigns a ~0.01 percentage probability to a 20% daily drop in market value (i.e. happens approximately once every 40 years), whereas the Gaussian distributions assign just a ~0.000000001% probability (which basically translates to "can never happen") and thus gravely underestimates the risk of this stock.
 
