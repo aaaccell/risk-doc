@@ -31,6 +31,7 @@ Note that this not only leads to more accurate volatility forecasts in terms of 
 Besides its clustering behaviour, volatility is asymmetric and reacts differently to positive and negative shocks. Notably, there are often much stronger volatility reactions to negative than to positive market shocks. Intuitively, this makes sense, and there is much more uncertainty after, e.g. a stock drops 5% due to bad news than a stock jumping 5% due to good news.
 
 The value of an asymmetric GARCH-type model can be observed from the following figure, where we see that the volatility resulting from symmetric versus asymmetric GARCH-type models acts slightly differently following a negative shock (left marker line) and very differently following a positive shock (right marker line):
+
 ![](https://raw.githubusercontent.com/aaaccell/risk-doc/master/figures/APC_asymmetric.png =100%x*)
 
 This model not only results in more accurate volatility forecasts but also leads to smoother risk-measures and removes risk-related false-positives. Note that the peculiarities of the reactions depend on the characteristics of the particular asset (APC in this case) and the reaction can be the same - if warranted by the data.
