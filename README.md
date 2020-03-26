@@ -61,3 +61,6 @@
   * Value-at-Risk
   * Expected-Shortfall
   * Risk-Contributions
+* [Data-cleaning]()
+  * Interpolation
+  * Dynamic risk-factor mapping
