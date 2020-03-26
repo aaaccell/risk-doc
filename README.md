@@ -61,6 +61,10 @@
   * Value-at-Risk
   * Expected-Shortfall
   * Risk-Contributions
-* [Data-cleaning]()
+* [Data-cleaning](https://github.com/aaaccell/risk-doc/blob/master/model-cleaning.md)
+  * Conditional interpolation and mapping
   * Interpolation
-  * Dynamic risk-factor mapping
+  * Risk-factor mapping
+    * Risk-factor mapping ethodology
+    * Risk-factor universe generation
+    * Risk-factor table selection

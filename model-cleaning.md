@@ -44,12 +44,14 @@ where we used the following methodology:
 * Define threshold as correlation level where risk-factor mapping leads to lower MSE than interpolation
 
 
-### Interpolation methodolgy
+### Interpolation
 
 @Marc, fill in details here!
 
+### Risk-factor mapping
 
-### Risk-factor mapping methodolgy
+
+#### Risk-factor mapping methodolgy
 
 Given a data set consisting of [Nx1] target asset prices (including missing values) and [NxK] risk-factor values, we apply the following approach to regress the risk-factor values on the target asset:
 
@@ -65,7 +67,7 @@ Given a data set consisting of [Nx1] target asset prices (including missing valu
 Note, that this algorithm requires that the regressor price data set does not have any missing/invalid data points at all. 
 
 
-### Risk-factor universe generation
+#### Risk-factor universe generation
 
 We are using the following data-driven algorithm to generate (or update) the risk-factor universe matching that best represents our current asset data base:
 
@@ -74,7 +76,7 @@ We are using the following data-driven algorithm to generate (or update) the ris
 3. Pre-definig the total size of the risk-factor universe one can now use a fixed step size and sample ISINs as risk-factors that are well diversified and representative of the frequency of occurence of assets. For example, from the 5'000 valid assets we sample every 50th asset to get a total 100 risk factors.
 
 
-### Risk-factor table selection
+#### Risk-factor table selection
 
 Given the metadata each asset carries, we can generate suitable risk-factor mapping tables on-the-fly by selecting suitable risk-factors from the universe generated earlier based on target asset metadata characteristics. For example, if we want to generate historical prices for a newly issued CHF denominated bond of a consumer-staples company, we would select Swiss fixed-income and consumer staples related risk-factors.
 
